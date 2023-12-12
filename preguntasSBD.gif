@@ -1,0 +1,23 @@
+Como se accede a una columna de una tabla con pandas?
+~df(columna)
+~df("columna")
+~df[columna]
+=df["columna"
+
+Como se seleccionan varias columnas?
+=df[['columna1','columna2']]
+~df(columna1,columna2)
+~df('columna1','columna2')
+~df.columna1,columna2
+
+Como se muestran las primeras filas de un dataframe?
+=df.head()
+~df.tail()
+~df.type()
+~df.show()
+
+Como se lee un archivo *.csv con pandas?
+~pd.csv("archivo.csv")
+~pd.read.csv("archivo.csv")
+=pd.read_csv("archivo.csv")
+~pd.read_csv(archivo.csv)
